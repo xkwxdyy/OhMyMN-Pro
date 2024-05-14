@@ -1,0 +1,16 @@
+node_modules
+dist
+yarn.lock
+yarn-error.log
+test*
+.eslintcache
+.pnpm*
+.DS_Store
+.local_history
+*.db
+*.zip
+.vercel/
+cache/
+tmp/
+temp/
+.env

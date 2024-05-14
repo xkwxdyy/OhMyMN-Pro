@@ -1,0 +1,34 @@
+{
+  "name": "create-ohmymn",
+  "description": "",
+  "license": "MIT",
+  "version": "0.0.3",
+  "author": "ourongxing<https://github.com/ourongxing>",
+  "homepage": "https://github.com/ourongxing/ohmymn/tree/main/packages/create-ohmymn#readme",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --clean",
+    "dev": "pnpm build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ourongxing/ohmymn.git",
+    "directory": "packages/create-ohmymn"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "bin": "dist/index.js",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/prompts": "^2.4.2",
+    "tsup": "^6.2.3"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
+  }
+}
